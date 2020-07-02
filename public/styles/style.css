@@ -32,7 +32,7 @@ ul, li {
 	z-index: 999;
 	transition: all 0.25s ease 0s;
 }
-#Header .logo a img {
+#Header .logo a svg {
 	width: 80px;
 }
 #Header .menu-wrap {
@@ -273,7 +273,7 @@ body.menu-active #Header .logo {
 	margin: 0 0 30px;
 }
 #Gain .each-icon {
-	background-color: #dd8633;
+	background-color: #373436;
 	min-height: 450px;
 	text-align: center;	
 	cursor: pointer;
@@ -304,21 +304,21 @@ body.menu-active #Header .logo {
 	text-align: center;
 }
 #Gain .each-icon .icon-text h3 {
-	color: #000000;
+	color: #dd8633;
 	margin: 0 0 15px;
 	font: 700 20px/115% 'Open Sans', sans-serif;
 }
 #Gain .each-icon .icon-text p {
-	color: #000000;
+	color: #dd8633;
 	margin: 0 0 15px;
 	font: 400 18px/115% 'Open Sans', sans-serif;
 }
 #Gain .each-icon .icon-text .cta a {
-	color: #000000;
+	color: #dd8633;
 	display: inline-block;
 }
 #Gain .each-icon .icon-text .cta i {
-	color: #000000;
+	color: #dd8633;
 	font-size: 25px;
 	position: relative;
 	left: -15px;

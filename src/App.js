@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Pages/Home';
 import Electricidad from './Pages/Electricidad';
+import Refrigeracion from './Pages/Refrigeracion';
+import Gasista from './Pages/Gasista';
+import Refacciones from './Pages/Refacciones';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
           <Switch>
               <Route path="/" component={Home} exact/>
               <Route path="/electricidad" component={Electricidad} exact/>
-              <Route path="/" component={Home} exact/>
-              <Route path="/" component={Home} exact/>
+              <Route path="/refrigeracion" component={Refrigeracion} exact/>
+              <Route path="/gasista" component={Gasista} exact/>
+              <Route path="/refacciones" component={Refacciones} exact/>
+              <Redirect to="/" />
           </Switch>
       </BrowserRouter>
     </>

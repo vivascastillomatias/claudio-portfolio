@@ -11,7 +11,7 @@ const data = {
 
 var iconGas = <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 187.000000 300.000000" preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="#dd8633" stroke="none">
 <path d="M915 2872 c-202 -182 -320 -328 -412 -509 -112 -219 -145 -406 -108
 -618 31 -178 98 -326 223 -495 87 -117 301 -324 452 -436 74 -56 149 -116 167
 -134 30 -31 33 -32 40 -14 4 10 8 51 8 89 -1 116 -30 158 -285 420 -196 201
@@ -33,7 +33,7 @@ var iconElectricidad = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="120" height="120" viewBox="0 0 300.000000 388.000000"
 preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,388.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="#dd8633" stroke="none">
 <path d="M2554 3728 c-70 -73 -444 -457 -830 -853 -386 -396 -714 -735 -729
 -752 l-27 -33 164 -1 c89 -1 207 -4 262 -8 l98 -6 -142 -175 c-131 -162 -250
 -308 -445 -550 l-77 -95 196 -3 c108 -1 196 -6 196 -10 0 -16 -173 -284 -603
@@ -59,7 +59,7 @@ var iconRefacciones = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="100" height="100" viewBox="0 0 284.000000 252.000000"
 preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,252.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="#dd8633" stroke="none">
 <path d="M1435 2500 c-194 -21 -433 -115 -586 -230 -92 -69 -357 -340 -381
 -389 -21 -43 -21 -46 -5 -92 22 -61 21 -71 -6 -97 -24 -23 -61 -29 -72 -12 -3
 6 -33 10 -67 10 l-60 0 -121 -119 -121 -118 -4 -60 c-4 -59 -4 -60 46 -119 67
@@ -76,7 +76,7 @@ var iconRefrigeracion = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="100" height="100" viewBox="0 0 300.000000 304.000000"
 preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,304.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
+fill="#dd8633" stroke="none">
 <path d="M1285 3023 c-135 -17 -339 -79 -450 -136 -227 -116 -439 -304 -573
 -510 -239 -366 -316 -817 -212 -1233 81 -323 267 -618 512 -814 142 -113 237
 -169 391 -230 118 -46 289 -90 351 -90 l26 0 0 124 0 125 -47 7 c-252 37 -587
