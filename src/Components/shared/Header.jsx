@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 //IMAGENES
 import logo from '../../images/logo.png'
@@ -197,12 +197,12 @@ export default function Header() {
                 </nav>
                 <div class="mobile-menu">
                 <ul>
-                    <li><a href="#HeroBanner" class="smooth-scroll">Home</a></li>
-                    <li><a href="#Gain" class="smooth-scroll">Gain The Knowledge</a></li>
-                    <li><a href="#Laptop" class="smooth-scroll">Improve your business </a></li>
-                    <li><a href="#Video" class="smooth-scroll">Video</a></li>
-                    <li><a href="#OurWork" class="smooth-scroll">Our Work</a></li>
-                    <li><a href="#ContactUs" class="smooth-scroll">Get In Touch</a></li>
+                    <li><Link to="/"><a class="smooth-scroll">INICIO</a></Link></li>
+                    <li><Link to="/electricidad"><a class="smooth-scroll">ELECTRICIDAD</a></Link></li>
+                    <li><Link to="/gasista"><a class="smooth-scroll">PLOMERIA Y GAS </a></Link></li>
+                    <li><Link to="/refrigeracion"><a class="smooth-scroll">REFRIGERACIÓN</a></Link></li>
+                    <li><Link to="/refacciones"><a class="smooth-scroll">REFACCIONES</a></Link></li>
+                    <li><Link to="/contacto"><a class="smooth-scroll">CONTACTO</a></Link></li>
                 </ul>
                 </div>
             </header>

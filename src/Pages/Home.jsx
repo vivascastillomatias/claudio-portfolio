@@ -32,11 +32,9 @@ const data = {
 export default function Home() {
         return (
             <>
-            <Header/>
             <Banner/>
             <Features/>
             <Cuadros cuadros={data.cuadros}/>
-            <Footer/>
             </>
         );
 }

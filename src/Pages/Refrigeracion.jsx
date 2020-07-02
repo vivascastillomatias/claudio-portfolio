@@ -45,11 +45,9 @@ export default function Refrigeracion() {
     
         return (
             <>
-            <Header/>
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
             <Cuadros cuadros={data.cuadros}/>
-            <Footer/>
             </>
         );
 }
