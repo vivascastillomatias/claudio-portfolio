@@ -20,7 +20,7 @@ import imagen6 from '../images/image-6.jpg';
 
 const data = {
   cuadros: [
-  {titulo: "Te amo mi gorriño", img: imagen1, cuerpo: "cuerpo de titulo1"},
+  {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
   {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
   {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
   {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
