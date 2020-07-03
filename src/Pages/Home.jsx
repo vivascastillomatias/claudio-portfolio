@@ -1,14 +1,9 @@
 import React from 'react';
-import {
-  Link
-} from 'react-router-dom';
 
 //COMPONENTES
-import Header from '../Components/shared/Header';
 import Banner from '../Components/Banner';
 import Features from '../Components/Features';
 import Cuadros from '../Components/Containers/Cuadros';
-import Footer from '../Components/shared/Footer';
 
 //Imagenes
 import imagen1 from '../images/image-1.jpg';
@@ -31,6 +26,7 @@ const data = {
 }
 
 export default function Home() {
+    window.scrollTo(0, -10000);
         return (
             <>
             <Banner/>

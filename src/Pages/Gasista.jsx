@@ -1,11 +1,6 @@
 import React from 'react';
-import {
-  Link
-} from 'react-router-dom';
 
 //COMPONENTES
-import Header from '../Components/shared/Header';
-import Footer from '../Components/shared/Footer';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
@@ -42,7 +37,7 @@ const data = {
 
 
 export default function Gasista() {
-    
+    window.scrollTo(0, -10000);
         return (
             <>
             <Portada data={data.portada}/>

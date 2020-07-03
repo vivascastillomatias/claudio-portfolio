@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 //IMAGENES
-import logo from '../../images/logo.png'
 
 var iconLogo = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="40" height="40" viewBox="0 0 900.000000 507.000000"
@@ -170,6 +169,7 @@ l-29 -22 -31 31 -31 31 36 39 c30 34 36 48 36 85 0 25 -3 47 -6 51 -3 3 -21
 
 
 export default function Header() {
+    const styleActive = {color: "#dd8633"}
         return (
             <>
             <header id="Header">
@@ -178,9 +178,9 @@ export default function Header() {
                     <div class="row">
                     <div class="col">
                         <div class="logo">
-                        <a>
-                        {iconLogo}
-                        </a>
+                        <Link to="/">
+                            {iconLogo}
+                        </Link>
                         </div>
                     </div>
                     <div class="col text-right">
@@ -197,12 +197,12 @@ export default function Header() {
                 </nav>
                 <div class="mobile-menu">
                 <ul>
-                    <li><Link to="/"><a class="smooth-scroll">INICIO</a></Link></li>
-                    <li><Link to="/electricidad"><a class="smooth-scroll">ELECTRICIDAD</a></Link></li>
-                    <li><Link to="/gasista"><a class="smooth-scroll">PLOMERIA Y GAS </a></Link></li>
-                    <li><Link to="/refrigeracion"><a class="smooth-scroll">REFRIGERACIÓN</a></Link></li>
-                    <li><Link to="/refacciones"><a class="smooth-scroll">REFACCIONES</a></Link></li>
-                    <li><Link to="/contacto"><a class="smooth-scroll">CONTACTO</a></Link></li>
+                    <li><NavLink to="/home" class="smooth-scroll" activeStyle={styleActive}>INICIO</NavLink></li>
+                    <li><NavLink to="/electricidad" class="smooth-scroll" activeStyle={styleActive}>ELECTRICIDAD</NavLink></li>
+                    <li><NavLink to="/gasista" class="smooth-scroll" activeStyle={styleActive}>PLOMERIA Y GAS</NavLink></li>
+                    <li><NavLink to="/refrigeracion" class="smooth-scroll" activeStyle={styleActive}>REFRIGERACIÓN</NavLink></li>
+                    <li><NavLink to="/refacciones" class="smooth-scroll" activeStyle={styleActive}>REFACCIONES</NavLink></li>
+                    <li><NavLink to="/contacto" class="smooth-scroll" activeStyle={styleActive}>CONTACTO</NavLink></li>
                 </ul>
                 </div>
             </header>

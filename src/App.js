@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 //PAGINAS
@@ -14,18 +14,19 @@ import Header from './Components/shared/Header';
 import Footer from './Components/shared/Footer';
 
 function App() {
+  
   return (
     <>
       <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
             <Header/>
           <Switch>
-              <Route path="/" component={Home} exact/>
+              <Route path="/home" component={Home} exact/>
               <Route path="/electricidad" component={Electricidad} exact/>
               <Route path="/refrigeracion" component={Refrigeracion} exact/>
               <Route path="/gasista" component={Gasista} exact/>
               <Route path="/refacciones" component={Refacciones} exact/>
-              <Redirect to="/" />
-          </Switch>
+              <Redirect to="/home" />
+          </Switch> 
           <Footer/>
       </BrowserRouter>
     </>
