@@ -3,6 +3,7 @@ import React from 'react';
 //COMPONENTES
 import Banner from '../Components/Banner';
 import Features from '../Components/Features';
+import Contacto from '../Components/Contacto';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //Imagenes
@@ -32,6 +33,7 @@ export default function Home() {
             <Banner/>
             <Features/>
             <Cuadros cuadros={data.cuadros}/>
+            <Contacto/>
             <BtnFlotantes></BtnFlotantes>
             </>
         );

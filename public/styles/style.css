@@ -736,6 +736,8 @@ body.menu-active #Header .logo {
 }
 /*Footer style end*/
 
+/* ESTILOS DE REDES FLOTANTES*/
+
 .redes-flotantes {
 	position: fixed;
 	right: 8px;
@@ -761,4 +763,28 @@ body.menu-active #Header .logo {
 	-o-transform: scale(1.1) rotate(6deg);
 	-ms-transform: scale(1.1) rotate(6deg);
 	transform: scale(1.1) rotate(6deg);
+	}
+
+.footer.footer-1 .footer-social-icons,.footer.footer-1 .menu-column{margin-top:1rem}
+.footer.footer-1 .menu-column li{display:block}}
+.footer-simple .footer-content{padding-top:40px;padding-bottom:40px;border-top:1px solid #e8e8e8}
+
+.footer-contact-boxes .footer-content{background-color:#000000}
+.footer-contact-boxes a{color:#03a9f4}
+.footer-contact-boxes a .fa{color:#fff}
+.footer-contact-boxes a:hover{color:#03a9f4}
+.footer-contact-boxes a:hover .fa{color:#3F464C}
+.comment-author .footer-contact-boxes .fn,.footer-contact-boxes .comment-author .fn,.footer-contact-boxes h1,.footer-contact-boxes h2,.footer-contact-boxes h3,.footer-contact-boxes h4,.footer-contact-boxes h5,.footer-contact-boxes h6,.footer-contact-boxes p,.footer-content-lists,.footer-content-lists .fa,.footer-content-lists table caption{color:#e8e8e8}
+
+.footer-contact-boxes .big-icon{font-size:48px;margin-bottom:24px}
+.footer-contact-boxes .footer-bg-accent{padding-left:1rem;padding-right:1rem;background-color:#e8e8e8}
+.footer-contact-boxes .footer-social-icons{margin-bottom:16px}
+.footer-contact-boxes .col-sm-3{padding-top:20px;padding-bottom:20px; border-bottom: 1px solid #FFFFFF}
+
+.hoverAnimacion:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 	}

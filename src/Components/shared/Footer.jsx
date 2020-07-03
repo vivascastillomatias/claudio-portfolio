@@ -11,7 +11,8 @@ export default function Footer() {
                 <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="copy-right">
-                    <p>© Small Business, Inc.</p>
+                    <p>Designed by G-Algoritmos <i class="fab fa-facebook-f"></i> </p>
+                    
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right">
@@ -35,7 +36,7 @@ export default function Footer() {
                 </div>
                 <div class="row">
                 <div class="col-12">
-                    <p class="designed">Designed by G-Algoritmos</p>
+                    <p class="designed">© Todos los derechos reservados 2020</p>
                 </div>
                 </div>
             </div>
