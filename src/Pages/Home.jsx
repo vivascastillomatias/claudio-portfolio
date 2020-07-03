@@ -17,10 +17,11 @@ import imagen3 from '../images/image-3.jpg';
 import imagen4 from '../images/image-4.jpg';
 import imagen5 from '../images/image-5.jpg';
 import imagen6 from '../images/image-6.jpg';
+import BtnFlotantes from '../Components/BtnFlotantes';
 
 const data = {
   cuadros: [
-  {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
+  {titulo: "Mely", img: imagen1, cuerpo: "cuerpo de titulo1"},
   {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
   {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
   {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
@@ -35,6 +36,7 @@ export default function Home() {
             <Banner/>
             <Features/>
             <Cuadros cuadros={data.cuadros}/>
+            <BtnFlotantes></BtnFlotantes>
             </>
         );
 }

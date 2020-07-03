@@ -24,10 +24,10 @@ export default function Banner() {
                                     <br />maurishasellus </p>
                                     <div class="bannet-cta">
                                     <div class="cta-1">
-                                        
+                                        <a>Click!</a>
                                     </div>
                                     <div class="cta-2">
-                                        
+                                        <a>Click!</a>
                                     </div>
                                     </div>
                                 </div>
@@ -49,10 +49,10 @@ export default function Banner() {
                                     <br />maurishasellus </p>
                                     <div class="bannet-cta">
                                     <div class="cta-1">
-                                        
+                                        <a>Click!</a>
                                     </div>
                                     <div class="cta-2">
-                                        
+                                        <a>Click!</a>
                                     </div>
                                     </div>
                                 </div>
