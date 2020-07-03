@@ -14,6 +14,10 @@ $(document).ready(function() {
     $('#nav-icon1').trigger("click");
     $("body").removeClass("menu-active");
   });
+  $(".logo-smooth-scroll").click(function() {
+    $('#nav-icon1').removeClass('open');
+    $("body").removeClass("menu-active");
+  });
   //menu icon animation
   $('#nav-icon1').click(function() {
     $(this).toggleClass('open');

@@ -178,7 +178,7 @@ export default function Header() {
                     <div class="row">
                     <div class="col">
                         <div class="logo">
-                        <Link to="/">
+                        <Link to="/" class="logo-smooth-scroll">
                             {iconLogo}
                         </Link>
                         </div>
