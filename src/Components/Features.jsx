@@ -122,8 +122,8 @@ export default function Features() {
         <section id="Gain">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <div class="each-icon box-1">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="each-icon">
                         <div class="icon-wrap">
                         {iconElectricidad}
                         </div>
@@ -136,8 +136,8 @@ export default function Features() {
                         </div>
                     </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <div class="each-icon box-2">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="each-icon">
                         <div class="icon-wrap">
                         {iconGas}
                         </div>
@@ -150,8 +150,8 @@ export default function Features() {
                         </div>
                     </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <div class="each-icon box-3">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="each-icon">
                         <div class="icon-wrap">
                         {iconRefrigeracion}
                         </div>
@@ -164,8 +164,8 @@ export default function Features() {
                         </div>
                     </div>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                    <div class="each-icon box-4">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="each-icon">
                         <div class="icon-wrap">
                         {iconRefacciones}
                         </div>
