@@ -147,8 +147,8 @@
     font-size: 30px;
   }
   #OurWork {
-    padding-top: 20px;
-    background-color: #efefef;
+    padding-top: 0px;
+    background-color: black;
   }
   #OurWork .title {
     width: 100%;
