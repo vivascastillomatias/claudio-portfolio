@@ -4,15 +4,18 @@ import React from 'react';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
+import Contacto from '../Components/Contacto';
+import BtnFlotantes from '../Components/BtnFlotantes';
 
 //IMAGENES
-import imagen1 from '../images/image-1.png';
-import imagen2 from '../images/image-2.png';
-import imagen3 from '../images/image-3.png';
-import imagen4 from '../images/image-4.png';
-import imagen5 from '../images/image-5.png';
-import imagen6 from '../images/image-6.png';
-import BtnFlotantes from '../Components/BtnFlotantes';
+import portada from '../images/electricidad/portada.png';
+import imagen1 from '../images/electricidad/image-1.png';
+import imagen2 from '../images/electricidad/image-2.png';
+import imagen3 from '../images/electricidad/image-3.png';
+import imagen4 from '../images/electricidad/image-4.png';
+import imagen5 from '../images/electricidad/image-5.png';
+import imagen6 from '../images/electricidad/image-6.png';
+
 
 var iconElectricidad = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="90" height="90" viewBox="0 0 300.000000 388.000000"
@@ -40,15 +43,18 @@ fill="#dd8633" stroke="none">
 611 13 381 -79 693 -293 991 -61 86 -176 213 -192 213 -6 0 -40 -42 -76 -94z"/>
 </g>
 </svg>
+var iconShield = <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#008037" viewBox="0 0 24 24"><path d="M15.762 8.047l-4.381 4.475-2.215-2.123-1.236 1.239 3.451 3.362 5.619-5.715-1.238-1.238zm-3.762-5.503c2.5 1.805 4.555 2.292 7 2.416v9.575c0 3.042-1.686 3.827-7 7.107-5.309-3.278-7-4.065-7-7.107v-9.575c2.447-.124 4.5-.611 7-2.416zm0-2.544c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3z"/></svg>
 
 const data = {
     portada:{
+        background: portada,
         img: iconElectricidad,
         nombre: "ELECTRICIDAD",
         descripcion: "Esto es una descripcion de la seccion de electricidad"
     },
     cuerpo: {
-        titulo: "Titulo de cuerpo",
+        img: iconShield,
+        titulo: "Electricista Matriculado Categoría 3",
         cuerpo: "Cuerpo del cuerpo"
     },
 
@@ -68,8 +74,9 @@ export default function Electricidad() {
         return (
             <>
             <Portada data={data.portada}/>
-            <Cuerpo data={data.cuerpo}/>
+            <Cuerpo data={data.cuerpo}/> 
             <Cuadros cuadros={data.cuadros}/>
+            <Contacto/>
             <BtnFlotantes></BtnFlotantes>
             </>
         );

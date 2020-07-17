@@ -7,7 +7,7 @@ export default function Cuerpo(props) {
         <section id="OurWork" class="clearfix">
             <div class="container">
             <div class="title text-center">
-                <h3>{props.data.titulo}</h3>
+                <h4><span>{props.data.img}</span>{props.data.titulo}</h4>
                 <p>
                     {props.data.cuerpo}
                 </p>

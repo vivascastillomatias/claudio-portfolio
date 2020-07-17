@@ -4,6 +4,8 @@ import React from 'react';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
+import Contacto from '../Components/Contacto';
+import BtnFlotantes from '../Components/BtnFlotantes';
 
 //IMAGENES
 import imgPortada from '../images/portada.jpg';
@@ -84,6 +86,8 @@ export default function Refrigeracion() {
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
             <Cuadros cuadros={data.cuadros}/>
+            <Contacto/>
+            <BtnFlotantes></BtnFlotantes>
             </>
         );
 }

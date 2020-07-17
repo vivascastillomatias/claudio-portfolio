@@ -4,6 +4,8 @@ import React from 'react';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
+import Contacto from '../Components/Contacto';
+import BtnFlotantes from '../Components/BtnFlotantes';
 
 //IMAGENES
 import imgPortada from '../images/portada.jpg';
@@ -37,7 +39,7 @@ c6 -53 19 -121 28 -152 24 -84 118 -259 192 -359 80 -108 271 -301 403 -406
 const data = {
     portada:{
         img: iconGas,
-        nombre: "PLOMERÍA Y GASISTA",
+        nombre: "GAS Y PLOMERÍA",
         descripcion: "Esto es una descripcion de la seccion de Plomería"
     },
     cuerpo: {
@@ -63,6 +65,8 @@ export default function Gasista() {
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
             <Cuadros cuadros={data.cuadros}/>
+            <Contacto/>
+            <BtnFlotantes></BtnFlotantes>
             </>
         );
 }

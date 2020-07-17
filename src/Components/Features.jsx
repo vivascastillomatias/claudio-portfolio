@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 const data = {
     cuadros: [
     {titulo: "Electricidad", cuerpo: "cuerpo de titulo1"},
-    {titulo: "Gasista", cuerpo: "cuerpo de titulo2"},
-    {titulo: "Refrigeracion", cuerpo: "cuerpo de titulo3"},
+    {titulo: "Gas y plomería", cuerpo: "cuerpo de titulo2"},
+    {titulo: "Refrigeración", cuerpo: "cuerpo de titulo3"},
     {titulo: "Refacciones", cuerpo: "cuerpo de titulo3"}
     ]
   }
@@ -122,61 +122,69 @@ export default function Features() {
         <section id="Gain">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                    <div class="each-icon">
-                        <div class="icon-wrap">
-                        {iconElectricidad}
-                        </div>
-                        <div class="icon-text">
-                        <h3>{data.cuadros[0].titulo}</h3>
-                        <p>{data.cuadros[0].cuerpo}</p>
-                        <div class="cta">
-                            {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                        </div>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <Link to="/electricidad">
+                            <div class="each-icon">
+                                <div class="icon-wrap">
+                                    {iconElectricidad}
+                                </div>
+                                <div class="icon-text">
+                                    <h3>{data.cuadros[0].titulo}</h3>
+                                    <p>{data.cuadros[0].cuerpo}</p>
+                                    <div class="cta">
+                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <Link to="/gas">
+                            <div class="each-icon">
+                                <div class="icon-wrap">
+                                    {iconGas}
+                                </div>
+                                <div class="icon-text">
+                                    <h3>{data.cuadros[1].titulo}</h3>
+                                    <p>{data.cuadros[1].cuerpo}</p>
+                                    <div class="cta">
+                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                    <div class="each-icon">
-                        <div class="icon-wrap">
-                        {iconGas}
-                        </div>
-                        <div class="icon-text">
-                        <h3>{data.cuadros[1].titulo}</h3>
-                        <p>{data.cuadros[1].cuerpo}</p>
-                        <div class="cta">
-                            {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                        </div>
-                        </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <Link to="/refrigeracion">
+                            <div class="each-icon">
+                                <div class="icon-wrap">
+                                    {iconRefrigeracion}
+                                </div>
+                                <div class="icon-text">
+                                    <h3>{data.cuadros[2].titulo}</h3>
+                                    <p>{data.cuadros[2].cuerpo}</p>
+                                    <div class="cta">
+                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                    <div class="each-icon">
-                        <div class="icon-wrap">
-                        {iconRefrigeracion}
-                        </div>
-                        <div class="icon-text">
-                        <h3>{data.cuadros[2].titulo}</h3>
-                        <p>{data.cuadros[2].cuerpo}</p>
-                        <div class="cta">
-                            {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                    <div class="each-icon">
-                        <div class="icon-wrap">
-                        {iconRefacciones}
-                        </div>
-                        <div class="icon-text">
-                        <h3>{data.cuadros[3].titulo}</h3>
-                        <p>{data.cuadros[3].cuerpo}</p>
-                        <div class="cta">
-                            {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                        </div>
-                        </div>
-                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                        <Link to="/refacciones">
+                            <div class="each-icon">
+                                <div class="icon-wrap">
+                                    {iconRefacciones}
+                                </div>
+                                <div class="icon-text">
+                                    <h3>{data.cuadros[3].titulo}</h3>
+                                    <p>{data.cuadros[3].cuerpo}</p>
+                                    <div class="cta">
+                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
