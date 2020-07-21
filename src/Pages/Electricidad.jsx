@@ -74,7 +74,22 @@ export default function Electricidad() {
         return (
             <>
             <Portada data={data.portada}/>
-            <Cuerpo data={data.cuerpo}/> 
+            <Cuerpo data={data.cuerpo}/>
+            <section id="Laptop">
+                <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="laptop-text">
+                        <h2>Improve your business<br class="d-none d-lg-none d-xl-block" /> today!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae assumenda explicabo delectus totam ex ratione dolorem, recusandae temporibus illum cupiditate, ab labore architecto. Deserunt officiis, iusto culpa aperiam, obcaecati corporis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae assumenda explicabo delectus totam ex ratione dolorem, recusandae temporibus illum cupiditate, ab labore architecto.</p>
+                        {/* <a href="#">Read More</a> */}
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
             <Cuadros cuadros={data.cuadros}/>
             <Contacto/>
             <BtnFlotantes></BtnFlotantes>

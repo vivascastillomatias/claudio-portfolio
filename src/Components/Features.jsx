@@ -130,10 +130,19 @@ export default function Features() {
                                 </div>
                                 <div class="icon-text">
                                     <h3>{data.cuadros[0].titulo}</h3>
-                                    <p>{data.cuadros[0].cuerpo}</p>
-                                    <div class="cta">
-                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                                    </div>
+                                    <p>
+                                        <div class="container">
+                                        <ul>
+                                            <li>Técnico matriculado categoría 3</li>
+                                            <li>Certificación apto ERSEP</li>
+                                            <li>Cableados e iluminaciones</li>
+                                            <li>Habilitación EPEC</li>
+                                            <li>Mantenimiento</li>
+                                            <li>Urgencias</li>
+                                            <li>Puesta a tierra</li>
+                                        </ul>
+                                        </div>
+                                    </p>
                                 </div>
                             </div>
                         </Link>
@@ -146,10 +155,22 @@ export default function Features() {
                                 </div>
                                 <div class="icon-text">
                                     <h3>{data.cuadros[1].titulo}</h3>
-                                    <p>{data.cuadros[1].cuerpo}</p>
-                                    <div class="cta">
-                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                                    </div>
+                                    <p>
+                                        <div class="container">
+                                        <ul>
+                                            <li>Instalación de red domiciliaria</li>
+                                            <li>Mantenimiento y reparaciones</li>
+                                            <li>Instalación de artefactos</li>
+                                            <li>Habilitación ECOGAS</li>
+                                            <li>Planos aprobados</li>
+                                            <li>Trámites y formularios</li>
+                                            <li>Pérdida de medidor</li>
+                                            <li>Control y colocación de ADT</li>
+                                            <li>Sistema tradicional y termofusión</li>
+                                            <li>Sanitarios, cañerías y perdidas</li>
+                                        </ul>                                            
+                                        </div>
+                                    </p>
                                 </div>
                             </div>
                         </Link>
@@ -162,10 +183,18 @@ export default function Features() {
                                 </div>
                                 <div class="icon-text">
                                     <h3>{data.cuadros[2].titulo}</h3>
-                                    <p>{data.cuadros[2].cuerpo}</p>
-                                    <div class="cta">
-                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                                    </div>
+                                    <p>
+                                        <div class="container">
+                                        <ul>
+                                            <li>Técnico matriculado</li>
+                                            <li>Mantenimiento preventivo</li>
+                                            <li>Carga de refrigerante</li>
+                                            <li>Desinstalación e Instalación por mudanza</li>
+                                            <li>Balance térmico</li>
+                                            <li>Reparación de lavarropas</li>
+                                        </ul>
+                                        </div>
+                                    </p>
                                 </div>
                             </div>
                         </Link>
@@ -178,10 +207,16 @@ export default function Features() {
                                 </div>
                                 <div class="icon-text">
                                     <h3>{data.cuadros[3].titulo}</h3>
-                                    <p>{data.cuadros[3].cuerpo}</p>
-                                    <div class="cta">
-                                        {/* <a title="Read More" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
-                                    </div>
+                                    <p>
+                                        <div class="container">
+                                        <ul>
+                                            <li>Pintura en general</li>
+                                            <li>Impermeabilizaciones en techos</li>
+                                            <li>Refacciones en general</li>
+                                            <li>Herrería</li>
+                                        </ul>
+                                        </div>
+                                    </p>
                                 </div>
                             </div>
                         </Link>

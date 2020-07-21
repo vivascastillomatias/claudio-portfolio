@@ -23,7 +23,7 @@ function App() {
               <Route path="/home" component={Home} exact/>
               <Route path="/electricidad" component={Electricidad} exact/>
               <Route path="/refrigeracion" component={Refrigeracion} exact/>
-              <Route path="/gasista" component={Gasista} exact/>
+              <Route path="/gas" component={Gasista} exact/>
               <Route path="/refacciones" component={Refacciones} exact/>
               <Redirect to="/home" />
           </Switch> 

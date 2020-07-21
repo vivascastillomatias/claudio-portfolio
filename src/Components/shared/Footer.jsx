@@ -6,8 +6,6 @@ export default function Footer() {
         <footer id="Footer">
             <div class="container text-center">
             <div class="footer-text ">
-                <p>Sign up for our free newsletter
-                <br class="hidden-lg-down" /> We share the latest on building great companies and careers from around the Web.</p>
                 <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="copy-right">

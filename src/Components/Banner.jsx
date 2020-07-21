@@ -17,11 +17,9 @@ export default function Banner() {
                             <div class="row">
                                 <div class="col">
                                 <div class="banner-text">
-                                    <h1> <strong>La solución que buscas<br /> en un sólo lugar. </strong></h1>
-                                    <p> Lorem ipsum dolor sit amet, consec tetuer
-                                    <br /> adipiscing elit. Praesent vestibu lum molestie
-                                    <br />lacus. Aenean nonummy hendrerit
-                                    <br />maurishasellus </p>
+                                    <h1><strong class="banner-tittle">La solución que buscas en un solo lugar.</strong></h1>
+                                    {/* <p> 15 años de experiencia
+                                    <br /> brindando servicios para tu hogar.</p>
                                     <div class="bannet-cta">
                                     <div class="cta-1">
                                         <a>
@@ -31,7 +29,7 @@ export default function Banner() {
                                     <div class="cta-2">
                                         <a>Click!</a>
                                     </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 </div>
                             </div>
@@ -44,19 +42,51 @@ export default function Banner() {
                             <div class="row">
                                 <div class="col">
                                 <div class="banner-text">
-                                    <h1><strong> Presupuesto sin cargo</strong></h1>
-                                    <p> Lorem ipsum dolor sit amet, consec tetuer
-                                    <br /> adipiscing elit. Praesent vestibu lum molestie
-                                    <br />lacus. Aenean nonummy hendrerit
-                                    <br />maurishasellus </p>
+                                <h1><strong class="banner-tittle"> Presupuesto sin cargo</strong></h1>
+                                    {/* <p> Comunicate y te asesoramos.</p>
                                     <div class="bannet-cta">
                                     <div class="cta-1">
-                                        <a>Click!</a>
+                                        <a href="tel:+3516811625">Solicitar presupuesto</a>
                                     </div>
-                                    <div class="cta-2">
-                                        <a>Click!</a>
+                                    </div> */}
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <div id="BannerSlider">
+                        <div class="item">
+                            <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                <div class="banner-text">
+                                <h1><strong class="banner-tittle"> Reparaciones en el día</strong></h1>
+                                    {/* <p> Comunicate y te asesoramos.</p>
+                                    <div class="bannet-cta">
+                                    <div class="cta-1">
+                                        <a href="tel:+3516811625">Solicitar presupuesto</a>
                                     </div>
+                                    </div> */}
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <div id="BannerSlider">
+                        <div class="item">
+                            <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                <div class="banner-text">
+                                <h1><strong class="banner-tittle"> Urgencias domiciliarias </strong></h1>
+                                    {/* <p> Comunicate y te asesoramos.</p>
+                                    <div class="bannet-cta">
+                                    <div class="cta-1">
+                                        <a href="tel:+3516811625">Solicitar presupuesto</a>
                                     </div>
+                                    </div> */}
                                 </div>
                                 </div>
                             </div>

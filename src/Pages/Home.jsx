@@ -18,11 +18,11 @@ import BtnFlotantes from '../Components/BtnFlotantes';
 const data = {
   cuadros: [
   {titulo: "Refacciones en general", img: imagen1, cuerpo: "cuerpo de titulo1"},
-  {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
-  {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
-  {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
-  {titulo: "Titulo5", img: imagen5, cuerpo: "cuerpo de titulo5"},
-  {titulo: "Titulo6", img: imagen6, cuerpo: "cuerpo de titulo6"}
+  {titulo: "Cableados e iluminaciones", img: imagen2, cuerpo: "cuerpo de titulo2"},
+  {titulo: "Instalación eléctrica domiciliaria", img: imagen3, cuerpo: "cuerpo de titulo3"},
+  {titulo: "Carga de refrigerante", img: imagen4, cuerpo: "cuerpo de titulo4"},
+  {titulo: "Instalación de red de gas", img: imagen5, cuerpo: "cuerpo de titulo5"},
+  {titulo: "Desinstalación e instalación de aires acondicionados", img: imagen6, cuerpo: "cuerpo de titulo6"}
   ]
 }
 

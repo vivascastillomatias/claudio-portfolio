@@ -214,6 +214,13 @@ body.menu-active #Header .logo {
 	-moz-transition: all 0.3s ease;
 }
 /*-----------------BANNER FIJO-----------------*/
+.banner-tittle {
+    background-color: #dd8633;
+	opacity: 0.7;
+	padding: 10px;
+	height: 80px;
+	line-height: 40px;
+}
 #BannerFijo {
 	background-color: #373436;
 	padding-top: 80px;
@@ -280,14 +287,14 @@ body.menu-active #Header .logo {
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 }
-/*-----------BANNER FIJO-------------------*/
+/*----------- FIN BANNER FIJO-------------------*/
 #Laptop {
 	padding: 45px 0;
 	background-color: #efefef;
 	position: relative;
 }
 #Laptop::before {
-	background: url(../images/improve-business.jpg) no-repeat 0 0;
+	/* background: url(../images/improve-business.jpg) no-repeat 0 0; */
 	content: "";
 	position: absolute;
 	top: 0;
@@ -344,10 +351,11 @@ body.menu-active #Header .logo {
 #Gain .each-icon {
 	background-color: #373436;
 	min-height: 450px;
-	text-align: center;	
 	cursor: pointer;
 	position: relative;
 	padding-top: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
 }
 #Gain .each-icon .icon-wrap {
 	position: absolute;
@@ -372,16 +380,19 @@ body.menu-active #Header .logo {
 	transition: all 0.5s;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	
 }
 #Gain .each-icon .icon-text h3 {
 	color: #dd8633;
 	margin: 0 0 15px;
-	font: 700 20px/115% 'Open Sans', sans-serif;
+	font: 700 20px/115%;
+	text-align: center;
 }
 #Gain .each-icon .icon-text p {
-	color: #dd8633;
+	color: #999999;
 	margin: 0 0 15px;
-	font: 400 18px/115% 'Open Sans', sans-serif;
+	font: 400 18px/115%;
+	text-align: left;
 }
 #Gain .each-icon .icon-text .cta a {
 	color: #dd8633;

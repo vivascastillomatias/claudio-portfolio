@@ -295,7 +295,7 @@
 
 /* Tablet Portrait view */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991) {
   #Header {
     padding: 10px 0 0;
   }
@@ -330,6 +330,7 @@
   }
   #Gain .each-icon {
     min-height: 310px;
+    padding-top: 50px;
   }
   #Gain .each-icon.box-1,
   #Gain .each-icon.box-2 {
@@ -466,6 +467,10 @@
   #Gain .each-icon .icon-wrap i {
     font-size: 65px;
     padding-top: 15px;
+  }
+  #Gain .each-icon {
+    min-height: 310px;
+    padding-top: 50px;
   }
   #Gain .each-icon .icon-text {
     padding: 8px 10px;
