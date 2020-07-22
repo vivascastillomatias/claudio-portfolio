@@ -3,7 +3,6 @@ import React from 'react';
 //COMPONENTES
 import Banner from '../Components/Banner';
 import Features from '../Components/Features';
-import Contacto from '../Components/Contacto';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //Imagenes
@@ -13,7 +12,6 @@ import imagen3 from '../images/image-3.png';
 import imagen4 from '../images/image-4.png';
 import imagen5 from '../images/image-5.png';
 import imagen6 from '../images/image-6.png';
-import BtnFlotantes from '../Components/BtnFlotantes';
 
 const data = {
   cuadros: [
@@ -197,8 +195,6 @@ export default function Home() {
             <Banner/>
             <Features features={features}/>
             <Cuadros cuadros={data.cuadros}/>
-            <Contacto/>
-            <BtnFlotantes></BtnFlotantes>
             </>
         );
 }

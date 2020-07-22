@@ -4,7 +4,6 @@ import React from 'react';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
-import Contacto from '../Components/Contacto';
 import BtnFlotantes from '../Components/BtnFlotantes';
 
 //IMAGENES
@@ -91,8 +90,6 @@ export default function Electricidad() {
                 </div>
             </section>
             <Cuadros cuadros={data.cuadros}/>
-            <Contacto/>
-            <BtnFlotantes></BtnFlotantes>
             </>
         );
 }

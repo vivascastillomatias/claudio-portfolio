@@ -5,7 +5,8 @@ export default function Banner() {
     const options = {
         items: 1,
         rewind: true,
-        autoplay: true
+        autoplay: true,
+        loop: true
     };
     return (
         <>

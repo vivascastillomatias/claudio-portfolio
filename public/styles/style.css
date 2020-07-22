@@ -585,8 +585,9 @@ body.menu-active #Header .logo {
 	padding: 70px 0;
 }
 #ContactUs .contact-title {
-	font: 400 26px/115% 'Open Sans', sans-serif;
-	color: #333;
+	font: 400 20px/115% 'Open Sans', sans-serif;
+	font-style: oblique;
+	color: #999999;
 	text-align: center;
 	margin: 0 0 30px;
 }
@@ -617,7 +618,7 @@ body.menu-active #Header .logo {
 	font: 400 18px/115% 'Open Sans', sans-serif;
 	font-weight: bold;
 	margin: 0 0 50px;
-	color: #333;
+	color: #dd8633;
 }
 #ContactUs .c-detail {
 	margin-bottom: 20px;
@@ -635,7 +636,7 @@ body.menu-active #Header .logo {
 	width: 86%;
 	display: inline-block;
 	vertical-align: top;
-	color: #333;
+	color: #FFFFFF;
 }
 #ContactUs .c-detail .c-info h4 {
 	font-size: 20px;
@@ -644,10 +645,13 @@ body.menu-active #Header .logo {
 	vertical-align: top;
 }
 #ContactUs .c-detail a {
-	color: #333;
+	color: #FFFFFF;
 }
-#ContactUs .c-detail a:hover {
-	color: #19af83;
+#ContactUs .c-detail p:hover{
+	color: #dd8633;
+}
+#ContactUs .c-detail a:hover{
+	color: #dd8633;
 }
 #ContactUs .form-wrap {
 	width: 60%;
@@ -656,7 +660,7 @@ body.menu-active #Header .logo {
 }
 #ContactUs .form-wrap p {
 	font: 400 16px/145% 'Open Sans', sans-serif;
-	color: #333;
+	color: #FFFFFF;
 	margin: 0 0 45px;
 }
 #ContactUs .form-wrap .floating-label {
@@ -683,7 +687,7 @@ body.menu-active #Header .logo {
 }
 #ContactUs .floating-input:focus {
 	outline: 0;
-	border-bottom: 1px solid #19af83;
+	border-bottom: 1px solid #dd8633;
 }
 #ContactUs .form-wrap label {
 	position: absolute;
@@ -698,30 +702,8 @@ body.menu-active #Header .logo {
 #ContactUs .floating-input:focus ~ label, #ContactUs .floating-input.not-empty ~ label {
 	top: -18px;
 	font: 400 12px/115% 'Open Sans', sans-serif;
-  color:#19af83;
-  transition: top 0.2s ease-in-out;
-}
-#ContactUs .submit-btn {
-	text-align: center;
-}
-#ContactUs .submit-btn button {
-	font: 400 16px/115% 'Open Sans', sans-serif;
-	border: 0;
-	border-radius: 0;
-	background-color: #19af83;
-	color: #fff;
-	padding: 10px 30px;
-	cursor: pointer;
-	outline: 0;
-	border-radius: 28px;
-	color: #fff;
-	border: 1px solid #19af83;
-	transition: all 0.25s ease 0s;
-}
-#ContactUs .submit-btn button:hover {
-	background-color: #fff;
-	color: #19af83;
-	transition: all 0.25s ease 0s;
+	color:#dd8633;
+	transition: top 0.2s ease-in-out;
 }
 /*ContactUs style end*/
 /*Footer style begin*/
