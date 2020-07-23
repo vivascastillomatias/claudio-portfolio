@@ -2,7 +2,7 @@ import React from 'react';
 
 //COMPONENTES
 import Banner from '../Components/Banner';
-import Features from '../Components/Features';
+import Features from '../Components/Containers/Features';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //Imagenes

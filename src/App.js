@@ -14,7 +14,7 @@ import Header from './Components/shared/Header';
 import Footer from './Components/shared/Footer';
 import PanelContacto from './Components/PanelContacto';
 import BtnFlotantes from './Components/BtnFlotantes';
-import Contacto from './Pages/Contacto';
+import PerfilProfesional from './Pages/PerfilProfesional';
 
 function App() {
   
@@ -28,7 +28,7 @@ function App() {
               <Route path="/refrigeracion" component={Refrigeracion} exact/>
               <Route path="/gas" component={Gasista} exact/>
               <Route path="/refacciones" component={Refacciones} exact/>
-              <Route path="/contacto" component={Contacto} exact/>
+              <Route path="/perfilProfesional" component={PerfilProfesional} exact/>
               <Redirect to="/home" />
           </Switch>
           <PanelContacto/>

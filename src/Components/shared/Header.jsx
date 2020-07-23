@@ -198,11 +198,11 @@ export default function Header() {
                 <div class="mobile-menu">
                 <ul>
                     <li><NavLink to="/home" class="smooth-scroll" activeStyle={styleActive}>INICIO</NavLink></li>
+                    <li><NavLink to="/perfilProfesional" class="smooth-scroll" activeStyle={styleActive}>PERFIL PROFESIONAL</NavLink></li>
                     <li><NavLink to="/electricidad" class="smooth-scroll" activeStyle={styleActive}>ELECTRICIDAD</NavLink></li>
                     <li><NavLink to="/gas" class="smooth-scroll" activeStyle={styleActive}>GAS Y PLOMERÍA</NavLink></li>
                     <li><NavLink to="/refrigeracion" class="smooth-scroll" activeStyle={styleActive}>REFRIGERACIÓN</NavLink></li>
                     <li><NavLink to="/refacciones" class="smooth-scroll" activeStyle={styleActive}>REFACCIONES</NavLink></li>
-                    <li><NavLink to="/contacto" class="smooth-scroll" activeStyle={styleActive}>CONTACTO</NavLink></li>
                 </ul>
                 </div>
             </header>

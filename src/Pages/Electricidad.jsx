@@ -52,9 +52,18 @@ const data = {
         descripcion: "Esto es una descripcion de la seccion de electricidad"
     },
     cuerpo: {
-        img: iconShield,
-        titulo: "Electricista Matriculado Categoría 3",
-        cuerpo: "Cuerpo del cuerpo"
+        items: [
+            'Certificación apto ERSEP',
+            'Cableados e iluminaciones',
+            'Habilitación EPEC',
+            'Mantenimiento',
+            'Urgencias',
+            'Puesta a tierra'
+        ],
+        info_profesional:[
+            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado categoría 3'},
+            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+        ]
     },
 
     cuadros: [
@@ -74,22 +83,8 @@ export default function Electricidad() {
             <>
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
-            <section id="Laptop">
-                <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <div class="laptop-text">
-                        <h2>Improve your business<br class="d-none d-lg-none d-xl-block" /> today!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae assumenda explicabo delectus totam ex ratione dolorem, recusandae temporibus illum cupiditate, ab labore architecto. Deserunt officiis, iusto culpa aperiam, obcaecati corporis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae assumenda explicabo delectus totam ex ratione dolorem, recusandae temporibus illum cupiditate, ab labore architecto.</p>
-                        {/* <a href="#">Read More</a> */}
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </section>
-            <Cuadros cuadros={data.cuadros}/>
+            {/* <Cuadros cuadros={data.cuadros}/> */}
             </>
         );
 }
+

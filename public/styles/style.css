@@ -498,6 +498,7 @@ body.menu-active #Header .logo {
   transform: scale(0);
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
+  cursor:pointer
 }
 #OurWork .filter-box .each-box.media {
 	display: block;
@@ -583,6 +584,7 @@ body.menu-active #Header .logo {
 /*ContactUs style begin*/
 #ContactUs {
 	padding: 70px 0;
+	cursor: pointer;
 }
 #ContactUs .contact-title {
 	font: 400 20px/115% 'Open Sans', sans-serif;
@@ -706,6 +708,133 @@ body.menu-active #Header .logo {
 	transition: top 0.2s ease-in-out;
 }
 /*ContactUs style end*/
+
+
+/*CuerpoSeccion style begin*/
+
+#CuerpoSeccion {
+	padding: 70px 0;
+	cursor: pointer;
+}
+#CuerpoSeccion .contact-title {
+	font: 400 20px/115% 'Open Sans', sans-serif;
+	font-style: oblique;
+	color: #999999;
+	text-align: center;
+	margin: 0 0 30px;
+}
+#CuerpoSeccion .contact-outer-wrapper {
+	width: 100%;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+}
+#CuerpoSeccion .address-block {
+	width: 40%;
+	height: 100%;
+	display: table-cell;
+	color: #333;
+	position: relative;
+	padding: 40px;
+}
+#CuerpoSeccion .address-block::after {
+  position: absolute;
+  content: "";
+  left: -1%;
+  width: 1px;
+  height: 80%;
+  background: #ccc;
+  top: 10%;
+}
+#CuerpoSeccion .add-title {
+	font: 400 18px/115% 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin: 0 0 50px;
+	color: #dd8633;
+}
+#CuerpoSeccion .c-detail {
+	margin-bottom: 20px;
+}
+#CuerpoSeccion .c-detail:last-child {
+	margin-bottom: 0;
+}
+#CuerpoSeccion .c-detail .c-info {
+	width: 86%;
+	display: inline-block;
+	vertical-align: top;
+	color: #FFFFFF;
+}
+#CuerpoSeccion .c-detail .c-info h4 {
+	font-size: 20px;
+}
+#CuerpoSeccion .c-detail span .fa {
+	vertical-align: top;
+}
+#CuerpoSeccion .c-detail a {
+	color: #FFFFFF;
+}
+#CuerpoSeccion .c-detail p:hover{
+	color: #dd8633;
+}
+#CuerpoSeccion .c-detail a:hover{
+	color: #dd8633;
+}
+#CuerpoSeccion .form-wrap {
+	width: 60%;
+	display: table-cell;
+	padding: 40px;
+}
+#CuerpoSeccion .form-wrap p {
+	font: 400 16px/145% 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	margin: 0 0 45px;
+}
+#CuerpoSeccion .form-wrap .floating-label {
+	position: relative;
+	width: 47%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+#CuerpoSeccion .form-wrap .fname, #CuerpoSeccion .form-wrap .contact {
+	margin-right: 20px;
+}
+#CuerpoSeccion .form-wrap .user-msg {
+	width: 98%;
+	display: block;
+	margin-bottom: 40px;
+}
+#CuerpoSeccion .floating-input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #999999;
+	box-shadow: none;
+	background-color: transparent;
+	padding-top: 3px;
+}
+#CuerpoSeccion .floating-input:focus {
+	outline: 0;
+	border-bottom: 1px solid #dd8633;
+}
+#CuerpoSeccion .form-wrap label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font: 400 14px/115% 'Open Sans', sans-serif;
+	text-align: left;
+	color: #999999;
+	transition: top 0.2s ease-in-out;
+	z-index: -1;
+}
+#CuerpoSeccion .floating-input:focus ~ label, #CuerpoSeccion .floating-input.not-empty ~ label {
+	top: -18px;
+	font: 400 12px/115% 'Open Sans', sans-serif;
+	color:#dd8633;
+	transition: top 0.2s ease-in-out;
+}
+/*CuerpoSeccion style end*/
+
+
+
 /*Footer style begin*/
 #Footer {
 	padding: 75px 0 50px;
@@ -831,7 +960,7 @@ transform: scale(1.1) rotate(6deg);
 .footer.footer-1 .menu-column li{display:block}
 .footer-simple .footer-content{padding-top:40px;padding-bottom:40px;border-top:1px solid #e8e8e8}
 
-.footer-contact-boxes .footer-content{background-color:#000000}
+.footer-contact-boxes .footer-content{background-color:#000000; cursor:pointer}
 .footer-contact-boxes a{color:#03a9f4}
 .footer-contact-boxes a .fa{color:#fff}
 .footer-contact-boxes a:hover{color:#03a9f4}

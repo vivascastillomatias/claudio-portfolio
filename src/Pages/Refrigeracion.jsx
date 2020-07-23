@@ -62,10 +62,18 @@ const data = {
         descripcion: "Esto es una descripcion de la seccion de refrigeración"
     },
     cuerpo: {
-        titulo: "Titulo de cuerpo",
-        cuerpo: "Cuerpo del cuerpo"
+        items: [
+            'Mantenimiento preventivo',
+            'Carga de refrigerante',
+            'Desinstalación e Instalación por mudanza',
+            'Balance térmico',
+            'Reparación de lavarropas'
+        ],
+        info_profesional:[
+            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado'},
+            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+        ]
     },
-
     cuadros: [
     {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
     {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},

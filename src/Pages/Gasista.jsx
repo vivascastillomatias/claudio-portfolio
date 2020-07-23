@@ -41,8 +41,22 @@ const data = {
         descripcion: "Esto es una descripcion de la seccion de Plomería"
     },
     cuerpo: {
-        titulo: "Titulo de cuerpo",
-        cuerpo: "Cuerpo del cuerpo"
+        items: [
+            'Instalación de red domiciliaria',
+            'Mantenimiento y reparaciones',
+            'Instalación de artefactos',
+            'Habilitación ECOGAS',
+            'Planos aprobados',
+            'Trámites y formularios',
+            'Pérdida de medidor',
+            'Control y colocación de ADT',
+            'Sistema tradicional y termofusión',
+            'Sanitarios, cañerías y perdidas'
+        ],
+        info_profesional:[
+            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado categoría 3'},
+            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+        ]
     },
 
     cuadros: [

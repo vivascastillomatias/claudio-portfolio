@@ -234,6 +234,50 @@
   #ContactUs .c-detail .c-info p {
     margin: 0;
   }
+
+  #CuerpoSeccion {
+    padding: 25px 0;
+  }
+  #CuerpoSeccion .contact-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  #CuerpoSeccion .form-wrap,
+  #CuerpoSeccion .address-block {
+    width: 100%;
+    padding: 20px;
+    display: block;
+  }
+  #CuerpoSeccion .form-wrap p {
+    font-size: 16px;
+    text-align: center;
+  }
+  #CuerpoSeccion .form-wrap .floating-label {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #CuerpoSeccion .form-wrap .user-msg {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #CuerpoSeccion .address-block {
+    position: static;
+  }
+  #CuerpoSeccion .address-block::after {
+    content: none;
+  }
+  #CuerpoSeccion .add-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  #CuerpoSeccion .c-detail .c-info h4 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  #CuerpoSeccion .c-detail .c-info p {
+    margin: 0;
+  }
+
   #Footer {
     padding: 40px 0;
   }

@@ -38,8 +38,16 @@ const data = {
         descripcion: "Esto es una descripcion de la seccion de Refacciones"
     },
     cuerpo: {
-        titulo: "Titulo de cuerpo",
-        cuerpo: "Cuerpo del cuerpo"
+        items: [
+            'Pintura en general',
+            'Impermeabilizaciones en techos',
+            'Refacciones en general',
+            'Herrería'
+        ],
+        info_profesional:[
+            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado categoría 3'},
+            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+        ]
     },
 
     cuadros: [
