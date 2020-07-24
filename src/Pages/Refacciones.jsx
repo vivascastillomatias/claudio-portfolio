@@ -6,7 +6,6 @@ import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //IMAGENES
-import imgPortada from '../images/portada.jpg';
 import imagen1 from '../images/image-1.png';
 import imagen2 from '../images/image-2.png';
 import imagen3 from '../images/image-3.png';
@@ -42,11 +41,11 @@ const data = {
             'Pintura en general',
             'Impermeabilizaciones en techos',
             'Refacciones en general',
+            'Refacción por instalación de split',
             'Herrería'
         ],
         info_profesional:[
-            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado categoría 3'},
-            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+            {nombre: '', descripcion: ''}
         ]
     },
 

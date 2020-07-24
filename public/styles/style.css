@@ -586,6 +586,12 @@ body.menu-active #Header .logo {
 	padding: 70px 0;
 	cursor: pointer;
 }
+#ContactUs .img::after {
+	cursor: pointer;
+	width: 100%;
+	align-self: center;
+  }
+
 #ContactUs .contact-title {
 	font: 400 20px/115% 'Open Sans', sans-serif;
 	font-style: oblique;
@@ -624,6 +630,9 @@ body.menu-active #Header .logo {
 }
 #ContactUs .c-detail {
 	margin-bottom: 20px;
+}
+#ContactUs .c-detail img {
+	width: 12rem;
 }
 #ContactUs .c-detail:last-child {
 	margin-bottom: 0;

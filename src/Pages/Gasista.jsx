@@ -6,7 +6,6 @@ import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //IMAGENES
-import imgPortada from '../images/portada.jpg';
 import imagen1 from '../images/image-1.png';
 import imagen2 from '../images/image-2.png';
 import imagen3 from '../images/image-3.png';
@@ -45,17 +44,20 @@ const data = {
             'Instalación de red domiciliaria',
             'Mantenimiento y reparaciones',
             'Instalación de artefactos',
-            'Habilitación ECOGAS',
             'Planos aprobados',
             'Trámites y formularios',
             'Pérdida de medidor',
             'Control y colocación de ADT',
             'Sistema tradicional y termofusión',
-            'Sanitarios, cañerías y perdidas'
+            'Sanitarios, cañerías y perdidas',
+            'Remodelaciones',
+            'Calefones',
+            'Termotanques',
+            'Valvulas, depósitos y mochilas de inodoro'
         ],
         info_profesional:[
-            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado categoría 3'},
-            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+            {nombre: 'GASISTA MATRICULADO', descripcion: 'Registrado en Cámara Argentina de Calefacción, Aire Acondicionado y Ventilación'},
+            {nombre: 'HABILITADOR ECOGAS', descripcion: 'Habilitación de red de gas domiciliaria'}
         ]
     },
 

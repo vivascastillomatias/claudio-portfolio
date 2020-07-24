@@ -6,7 +6,6 @@ import Cuerpo from '../Components/Cuerpo';
 import Cuadros from '../Components/Containers/Cuadros';
 
 //IMAGENES
-import imgPortada from '../images/portada.jpg';
 import imagen1 from '../images/image-1.png';
 import imagen2 from '../images/image-2.png';
 import imagen3 from '../images/image-3.png';
@@ -64,14 +63,15 @@ const data = {
     cuerpo: {
         items: [
             'Mantenimiento preventivo',
+            'Asesoría',
+            'Diagnóstico y reparación',
             'Carga de refrigerante',
             'Desinstalación e Instalación por mudanza',
             'Balance térmico',
             'Reparación de lavarropas'
         ],
         info_profesional:[
-            {nombre: 'Tecnico Matriculado', descripcion: 'Tecnico Matriculado'},
-            {nombre: 'Exp en .............', descripcion: 'Instalación de cableado e iluminacion'}
+            {nombre: 'TECNICO MATRICULADO EN REFRIGERACIÓN', descripcion: 'Escuela de instaladores Isaias Goldman'}
         ]
     },
     cuadros: [

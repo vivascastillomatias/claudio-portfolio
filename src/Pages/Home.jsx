@@ -15,12 +15,12 @@ import imagen6 from '../images/image-6.png';
 
 const data = {
   cuadros: [
-  {titulo: "Refacciones en general", img: imagen1, cuerpo: "cuerpo de titulo1"},
-  {titulo: "Cableados e iluminaciones", img: imagen2, cuerpo: "cuerpo de titulo2"},
-  {titulo: "Instalación eléctrica domiciliaria", img: imagen3, cuerpo: "cuerpo de titulo3"},
-  {titulo: "Carga de refrigerante", img: imagen4, cuerpo: "cuerpo de titulo4"},
-  {titulo: "Instalación de red de gas", img: imagen5, cuerpo: "cuerpo de titulo5"},
-  {titulo: "Desinstalación e instalación de aires acondicionados", img: imagen6, cuerpo: "cuerpo de titulo6"}
+  {titulo: "Refacciones en general", img: imagen1, cuerpo: ""},
+  {titulo: "Cableados e iluminaciones", img: imagen2, cuerpo: ""},
+  {titulo: "Instalación eléctrica domiciliaria", img: imagen3, cuerpo: ""},
+  {titulo: "Carga de refrigerante", img: imagen4, cuerpo: ""},
+  {titulo: "Instalación de red de gas", img: imagen5, cuerpo: ""},
+  {titulo: "Desinstalación e instalación de aires acondicionados", img: imagen6, cuerpo: ""}
   ]
 }
 

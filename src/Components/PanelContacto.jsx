@@ -20,16 +20,20 @@ export default function PanelContacto() {
                             </div>
                         </div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                            <a  href="tel:3513091573">
                             <div class="hoverAnimacion">
                                 {iconPhone}
-                                <p>351 3000000</p>
+                                <p>351 309-1573</p>
                             </div>
+                            </a>
                         </div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <a href="mailto:castilloservicios@gmail.com">
                             <div class="hoverAnimacion">
                                 {iconMailTo}
                                 <p>castilloservicios @gmail.com</p>
                             </div>
+                        </a>
                         </div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                             <div class="hoverAnimacion">

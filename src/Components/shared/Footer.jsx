@@ -9,7 +9,7 @@ export default function Footer() {
                 <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="copy-right">
-                    <p>Designed by G-Algoritmos <i class="fab fa-facebook-f"></i> </p>
+                    <p>Desarrollado por G-Algoritmos <i class="fab fa-facebook-f"></i> </p>
                     
                     </div>
                 </div>

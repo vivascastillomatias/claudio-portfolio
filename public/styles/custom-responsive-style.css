@@ -27,7 +27,7 @@
     height: 380px;
   }
   #BannerSlider {
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: center;
   }
   #BannerSlider .banner-text {
@@ -468,6 +468,7 @@
   #ContactUs {
     padding: 40px 0;
   }
+
   #ContactUs .contact-title {
     margin-bottom: 12px;
   }
