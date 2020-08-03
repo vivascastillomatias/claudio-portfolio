@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <BrowserRouter basename={process.env.REACT_APP_ROUTER_BASE || ''}>
-            <Header/>
+          <Header/>
           <Switch>
               <Route path="/home" component={Home} exact/>
               <Route path="/electricidad" component={Electricidad} exact/>

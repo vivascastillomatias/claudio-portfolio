@@ -86,7 +86,7 @@ export default function PerfilProfesional() {
                                 {/* <div class="c-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>PÁGINA DE FACEBOOK</h4>
-                                <p><a href="https://www.facebook.com/Refrigeracion-electricidad-en-general-274631352920334">Electricidad y Refrigeración en general</a></p>
+                                <p><a href="https://www.facebook.com/Refrigeracion-electricidad-en-general-274631352920334" target="_blank" rel="noopener noreferrer">Electricidad y Refrigeración en general</a></p>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ export default function PerfilProfesional() {
                             <div class="c-detail">
                                 {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
-                                    <h4>POSTRES SERRANO</h4>
+                                    <h4>[EXPERIENCIA]</h4>
                                     <p><strong>Actividad:</strong> dd/mm/aaaa</p>
                                     <p><strong>Desde:</strong> dd/mm/aaaa</p>
                                     <p><strong>Hasta:</strong> dd/mm/aaaa</p>
@@ -134,7 +134,7 @@ export default function PerfilProfesional() {
                             <div class="c-detail">
                                 {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
-                                    <h4>POSTRES SERRANO</h4>
+                                    <h4>[EXPERIENCIA]</h4>
                                     <p><strong>Actividad:</strong> dd/mm/aaaa</p>
                                     <p><strong>Desde:</strong> dd/mm/aaaa</p>
                                     <p><strong>Hasta:</strong> dd/mm/aaaa</p>
@@ -143,7 +143,7 @@ export default function PerfilProfesional() {
                             <div class="c-detail">
                                 {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
-                                    <h4>POSTRES SERRANO</h4>
+                                    <h4>[EXPERIENCIA]</h4>
                                     <p><strong>Actividad:</strong> dd/mm/aaaa</p>
                                     <p><strong>Desde:</strong> dd/mm/aaaa</p>
                                     <p><strong>Hasta:</strong> dd/mm/aaaa</p>

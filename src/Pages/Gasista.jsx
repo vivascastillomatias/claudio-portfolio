@@ -3,15 +3,7 @@ import React from 'react';
 //COMPONENTES
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
-import Cuadros from '../Components/Containers/Cuadros';
 
-//IMAGENES
-import imagen1 from '../images/image-1.png';
-import imagen2 from '../images/image-2.png';
-import imagen3 from '../images/image-3.png';
-import imagen4 from '../images/image-4.png';
-import imagen5 from '../images/image-5.png';
-import imagen6 from '../images/image-6.png';
 var iconGas = <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 187.000000 300.000000" preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
 fill="#dd8633" stroke="none">
@@ -59,16 +51,7 @@ const data = {
             {nombre: 'GASISTA MATRICULADO', descripcion: 'Registrado en Cámara Argentina de Calefacción, Aire Acondicionado y Ventilación'},
             {nombre: 'HABILITADOR ECOGAS', descripcion: 'Habilitación de red de gas domiciliaria'}
         ]
-    },
-
-    cuadros: [
-    {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
-    {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
-    {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
-    {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
-    {titulo: "Titulo5", img: imagen5, cuerpo: "cuerpo de titulo5"},
-    {titulo: "Titulo6", img: imagen6, cuerpo: "cuerpo de titulo6"}
-    ]
+    }
     }
 
 
@@ -78,7 +61,6 @@ export default function Gasista() {
             <>
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
-            <Cuadros cuadros={data.cuadros}/>
             </>
         );
 }

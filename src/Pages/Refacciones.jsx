@@ -3,15 +3,7 @@ import React from 'react';
 //COMPONENTES
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
-import Cuadros from '../Components/Containers/Cuadros';
 
-//IMAGENES
-import imagen1 from '../images/image-1.png';
-import imagen2 from '../images/image-2.png';
-import imagen3 from '../images/image-3.png';
-import imagen4 from '../images/image-4.png';
-import imagen5 from '../images/image-5.png';
-import imagen6 from '../images/image-6.png';
 var iconRefacciones = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="90" height="90" viewBox="0 0 284.000000 252.000000"
 preserveAspectRatio="xMidYMid meet">
@@ -47,16 +39,7 @@ const data = {
         info_profesional:[
             {nombre: '', descripcion: ''}
         ]
-    },
-
-    cuadros: [
-    {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
-    {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
-    {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
-    {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
-    {titulo: "Titulo5", img: imagen5, cuerpo: "cuerpo de titulo5"},
-    {titulo: "Titulo6", img: imagen6, cuerpo: "cuerpo de titulo6"}
-    ]
+    }
     }
 
 
@@ -66,7 +49,6 @@ export default function Refacciones() {
             <>
             <Portada data={data.portada}/>
             <Cuerpo data={data.cuerpo}/>
-            <Cuadros cuadros={data.cuadros}/>
             </>
         );
 }

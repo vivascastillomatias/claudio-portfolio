@@ -4,14 +4,6 @@ import React from 'react';
 import Portada from '../Components/Portada';
 import Cuerpo from '../Components/Cuerpo';
 
-//IMAGENES
-import portada from '../images/electricidad/portada.png';
-import imagen1 from '../images/electricidad/image-1.png';
-import imagen2 from '../images/electricidad/image-2.png';
-import imagen3 from '../images/electricidad/image-3.png';
-import imagen4 from '../images/electricidad/image-4.png';
-import imagen5 from '../images/electricidad/image-5.png';
-import imagen6 from '../images/electricidad/image-6.png';
 
 
 var iconElectricidad = <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +35,6 @@ fill="#dd8633" stroke="none">
 
 const data = {
     portada:{
-        background: portada,
         img: iconElectricidad,
         nombre: "ELECTRICIDAD",
         descripcion: "Esto es una descripcion de la seccion de electricidad"
@@ -61,16 +52,7 @@ const data = {
             {nombre: 'TÉCNICO MATRICULADO CATEGORÍA 3', descripcion: 'Instalación de cableado e iluminacion'},
             {nombre: 'CURSO DE CAPACITACIÓN EN INSTALACIONES DOMICILIARIAS DE ELECTRICIDAD', descripcion: 'Programa provincial de capacitación para el empleo - COMCAL - Resolución 557/04'}
         ]
-    },
-
-    cuadros: [
-    {titulo: "Titulo1", img: imagen1, cuerpo: "cuerpo de titulo1"},
-    {titulo: "Titulo2", img: imagen2, cuerpo: "cuerpo de titulo2"},
-    {titulo: "Titulo3", img: imagen3, cuerpo: "cuerpo de titulo3"},
-    {titulo: "Titulo4", img: imagen4, cuerpo: "cuerpo de titulo4"},
-    {titulo: "Titulo5", img: imagen5, cuerpo: "cuerpo de titulo5"},
-    {titulo: "Titulo6", img: imagen6, cuerpo: "cuerpo de titulo6"}
-    ]
+    }
     }
 
 

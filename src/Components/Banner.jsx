@@ -20,7 +20,7 @@ export default function Banner() {
                                 <div class="col">
                                 <div class="banner-text">
                                     <h1><strong class="banner-tittle">COVID-19 - TRABAJAMOS CUIDANDOTE</strong></h1>
-                                    <p> Devido a la situacion actual frente al COVID-19 Trabajamos con responsabilidad tomando <br/>
+                                    <p> Debido a la situacion actual frente al COVID-19 Trabajamos con responsabilidad tomando <br/>
                                      todos los recaudos necesarios para brindar un perfecto servicio para tu hogar</p>
                                     <div class="bannet-cta">
                                     {/* <div class="cta-1">
