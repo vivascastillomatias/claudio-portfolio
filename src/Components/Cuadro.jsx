@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Cuadro(props) {
 
     return (
         <>
         <div class="each-box all scale-anm branding">
+        <Link to={props.data.link}>
+
             <div class="each-box-img">
                 <img src={props.data.img} alt=""/>
             </div>
@@ -15,6 +18,7 @@ export default function Cuadro(props) {
                 {/* <a title="Read More" href="#" target="_blank"><i class="fa fa-arrow-right" aria-hidden="true"></i></a> */}
             </div>
             </div>
+        </Link>
         </div>
         </>
     );

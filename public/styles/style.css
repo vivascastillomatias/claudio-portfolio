@@ -846,7 +846,7 @@ body.menu-active #Header .logo {
 
 /*Footer style begin*/
 #Footer {
-	padding: 75px 0 50px;
+	padding: 30px 0 50px;
 	background-color: #000;
 }
 #Footer .footer-text p {
@@ -854,86 +854,31 @@ body.menu-active #Header .logo {
 	color: #fff;
 	margin: 0 0 30px;
 }
+#Footer .footer-text .copy-right p {
+	margin-bottom: 15px;
+	font: 400 16px/115% 'Open Sans', sans-serif;
+	color: #fff;
+	text-align: center;
+}
 #Footer .footer-text p.designed {
 	font-size: 12px;
-	text-align: left;
+	color: #373436;
+	text-align: center;
 	margin-bottom: 0;
 }
-#Footer .footer-text p.designed a {
-	color: #19af83;
+#Footer .footer-text p.contact-mail {
+	font-size: 10px;
+	color: #373436;
+	text-align: center;
+	margin-bottom: 0;
+	cursor: pointer
 }
-#Footer .footer-text p.designed a:hover {
-	color: #29e4ad;
+
+
+#Footer .footer-text p.contact-mail:hover {
+	color: #20a8c9;
 }
-#Footer .footer-text .email-box {
-	padding-bottom: 100px;
-}
-#Footer .footer-text .email-box form {
-	display: inline-block;
-	position: relative;
-	z-index: 9;
-}
-#Footer .footer-text .email-box label {
-	position: absolute;
-	top: 0;
-	left: 0;
-	font: 400 16px/155% 'Open Sans', sans-serif;
-	text-align: left;
-	color: #fff;
-	transition: top 0.2s ease-in-out;
-	z-index: -1;
-}
-#Footer .footer-text .email-box input:focus ~ label, #Footer .footer-text .email-box .not-empty ~ label {
-	top: -18px;
-  font: 400 14px/155% 'Open Sans', sans-serif;
-  color:#19af83;
-  transition: top 0.2s ease-in-out;
-}
-#Footer .footer-text .email-box input {
-	border-right: none;
-	border-left: none;
-	border-top: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
-	font: 400 16px/115% 'Open Sans', sans-serif;
-	color: #fff;
-	padding: 5px 40px 5px 0;
-	transition: all 0.25s ease 0s;
-	box-shadow: none;
-	outline: none;
-}
-#Footer .footer-text .email-box input:focus {
-	border-bottom: 1px solid #19af83;
-	transition: all 0.25s ease 0s;
-}
-#Footer .footer-text .email-box input.submit {
-	background: url(../images/email-box-arrow.png) no-repeat 0 5px;
-	padding: 0px 4px;
-	border: 0;
-	position: absolute;
-	top: 2px;
-	right: 3px;
-	cursor: pointer;
-	width: 20px;
-}
-#Footer .footer-text .social-share ul li {
-	display: inline-block;
-	list-style: none;
-	margin-right: 15px;
-}
-#Footer .footer-text .social-share ul li a, .social-share ul li a i {
-	color: #fff;
-	font-size: 18px;
-}
-.social-share ul li a:hover i {
-	color: #19af83;
-} 
-#Footer .footer-text .copy-right p {
-	margin: 0;
-	font: 400 16px/115% 'Open Sans', sans-serif;
-	color: #fff;
-	text-align: left;
-}
+
 /*Footer style end*/
 
 /* ESTILOS DE REDES FLOTANTES*/

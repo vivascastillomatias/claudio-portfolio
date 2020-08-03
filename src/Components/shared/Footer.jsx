@@ -1,41 +1,21 @@
 import React from 'react';
 
 export default function Footer() {
+    let date = new Date();
+    let fecha = date.getFullYear();
     return (
         <>
         <footer id="Footer">
             <div class="container text-center">
             <div class="footer-text ">
                 <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="copy-right">
-                    <p>Desarrollado por G-Algoritmos <i class="fab fa-facebook-f"></i> </p>
-                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="copy-right">
+                        <p>Desarrollado por G-Algoritmos </p>
+                        </div>
+                        <p class="designed">© Todos los derechos reservados {fecha}</p>
+                        <a href="mailto:g.algoritmos@gmail.com"><p class="contact-mail">g.algoritmos@gmail.com</p></a>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right">
-                    <div class="social-share">
-                    <ul>
-                        <li>
-                        <i class="fab fa-facebook-f"></i>
-                        </li>
-                        <li>
-                        <i class="fab fa-twitter"></i>
-                        </li>
-                        <li>
-                        <i class="fab fa-linkedin-in"></i>
-                        </li>
-                        <li>
-                        <i class="fab fa-pinterest"></i>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                </div>
-                <div class="row">
-                <div class="col-12">
-                    <p class="designed">© Todos los derechos reservados 2020</p>
-                </div>
                 </div>
             </div>
             </div>
