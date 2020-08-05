@@ -391,7 +391,7 @@ body.menu-active #Header .logo {
 #Gain .each-icon .icon-text p {
 	color: #999999;
 	margin: 0 0 15px;
-	font: 400 18px/115%;
+	font-size: 100%;
 	text-align: left;
 }
 #Gain .each-icon .icon-text .cta a {
