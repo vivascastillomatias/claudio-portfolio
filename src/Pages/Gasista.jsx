@@ -39,17 +39,15 @@ const data = {
             'Planos aprobados',
             'Trámites y formularios',
             'Pérdida de medidor',
-            'Control y colocación de ADT',
             'Sistema tradicional y termofusión',
             'Sanitarios, cañerías y perdidas',
             'Remodelaciones',
             'Calefones',
             'Termotanques',
-            'Valvulas, depósitos y mochilas de inodoro'
+            'Limpieza de tanques de agua'
         ],
         info_profesional:[
-            {nombre: 'GASISTA MATRICULADO', descripcion: 'Registrado en Cámara Argentina de Calefacción, Aire Acondicionado y Ventilación'},
-            {nombre: 'HABILITADOR ECOGAS', descripcion: 'Habilitación de red de gas domiciliaria'}
+            {nombre: 'GASISTA MATRICULADO POR ECOGAS', descripcion: 'Técnico habilitado para realizar instalaciones y desinstalaciones avalado por ECOGAS'},
         ]
     }
     }

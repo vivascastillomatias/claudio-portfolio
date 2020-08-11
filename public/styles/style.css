@@ -157,6 +157,16 @@ body.menu-active #Header .logo {
 #BannerSlider .banner-img img {
 	width: auto;
 }
+#BannerSlider .banner-logo {
+	text-align: center;
+}
+
+#BannerSlider .banner-logo .logoPrincipal{
+	background-color: #373436;
+	opacity: 0.9;
+}
+
+
 #BannerSlider .banner-text {
 	padding-top: 40px;
 }

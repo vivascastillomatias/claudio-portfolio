@@ -55,15 +55,20 @@ const data = {
     cuerpo: {
         items: [
             'Mantenimiento preventivo',
-            'Asesoría',
             'Diagnóstico y reparación',
             'Carga de refrigerante',
+            'Instalación y desinstalación de aires acondicionados',
+            'Operamos con todas las marcas y modelos',
+            'Instalaciones familiares y comerciales',
             'Desinstalación e Instalación por mudanza',
             'Balance térmico',
-            'Reparación de lavarropas'
+            'Reparacion de cavas de vinos',
+            'Reparación de lavarropas',
+            'Asesoría',
         ],
         info_profesional:[
-            {nombre: 'TECNICO MATRICULADO EN REFRIGERACIÓN', descripcion: 'Escuela de instaladores Isaias Goldman'}
+            {nombre: 'TECNICO MATRICULADO EN REFRIGERACIÓN', descripcion: 'Escuela de instaladores Isaias Goldman'},
+            {nombre: 'TECNICO CAPACITADO', descripcion: 'Instituto de capacitacion laboral Celsius'}
         ]
     }
     }

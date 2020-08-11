@@ -33,6 +33,10 @@
   #BannerSlider .banner-text {
     padding-top: 20px;
   }
+  #BannerSlider .banner-logo .logoPrincipal{
+    width:250px;
+    height:250px;
+  }
   #BannerSlider .banner-text h1 {
     font-size: 22px;
     margin-bottom: 14px;
@@ -358,6 +362,10 @@
   }
   #BannerSlider .banner-text h1 {
     font-size: 32px;
+  }
+  #BannerSlider .banner-logo .logoPrincipal{
+    width:300px;
+    height:300px;
   }
   #Laptop {
     text-align: center;

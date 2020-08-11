@@ -31,7 +31,7 @@ export default function PanelContacto() {
                         <a href="mailto:castilloservicios@gmail.com">
                             <div class="hoverAnimacion">
                                 {iconMailTo}
-                                <p>castilloservicios @gmail.com</p>
+                                <p><span>castilloservicioscordoba</span> <span>@gmail.com</span></p>
                             </div>
                         </a>
                         </div>

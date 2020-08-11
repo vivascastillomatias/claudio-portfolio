@@ -41,11 +41,12 @@ const data = {
     },
     cuerpo: {
         items: [
+            'Mantenimiento',
             'Certificación apto ERSEP',
             'Cableados e iluminaciones',
             'Habilitación EPEC',
-            'Mantenimiento',
-            'Urgencias',
+            'Colocación de estabilizadores de tensión',
+            'Colocacion de protección para alta y baja tensión',
             'Puesta a tierra'
         ],
         info_profesional:[

@@ -13,16 +13,6 @@ import imagen4 from '../images/image-4.png';
 import imagen5 from '../images/image-5.png';
 import imagen6 from '../images/image-6.png';
 
-const data = {
-  cuadros: [
-    {titulo: "Carga de refrigerante", img: imagen4, link: "/refrigeracion"},
-    {titulo: "Cableados e iluminaciones", img: imagen2, link: "/electricidad"},
-    {titulo: "Desinstalación e instalación de aires acondicionados", img: imagen6, link: "/refrigeracion"},
-    {titulo: "Refacciones en general", img: imagen1, link: "/refacciones"},
-    {titulo: "Instalación de red de gas", img: imagen5, link: "/gas"},
-    {titulo: "Instalación eléctrica domiciliaria", img: imagen3, link: "/electricidad"},
-  ]
-}
 
 var iconGas = <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 187.000000 300.000000" preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
@@ -140,7 +130,7 @@ const features = [
                         'Cableados e iluminaciones',
                         'Habilitación EPEC',
                         'Mantenimiento',
-                        'Urgencias',
+                        'Colocación de estabilizadores de tensión',
                         'Puesta a tierra'
                     ]
                 },
@@ -156,9 +146,7 @@ const features = [
                         'Planos aprobados',
                         'Trámites y formularios',
                         'Pérdida de medidor',
-                        'Control y colocación de ADT',
-                        'Sistema tradicional y termofusión',
-                        'Sanitarios, cañerías y perdidas'
+                        'Sistema tradicional y termofusión'
                     ]
                 },
                 {
@@ -168,6 +156,8 @@ const features = [
                     cuerpo: [
                         'Técnico matriculado',
                         'Mantenimiento preventivo',
+                        'Colocación completa con linea de electricidad',
+                        'Todas las marcas y modelos',
                         'Carga de refrigerante',
                         'Desinstalación e Instalación por mudanza',
                         'Balance térmico',
@@ -180,6 +170,7 @@ const features = [
                     link: '/refacciones',
                     cuerpo: [
                     'Pintura en general',
+                    'Refacciones por colocacion de aires acondicionados',
                     'Impermeabilizaciones en techos',
                     'Refacciones en general',
                     'Herrería'
@@ -187,6 +178,16 @@ const features = [
                 }
             ];
 
+const data = {
+    cuadros: [
+        {titulo: "Carga de refrigerante", img: imagen4, link: "/refrigeracion"},
+        {titulo: "Cableados e iluminaciones", img: imagen2, link: "/electricidad"},
+        {titulo: "Desinstalación e instalación de aires acondicionados", img: imagen6, link: "/refrigeracion"},
+        {titulo: "Refacciones en general", img: imagen1, link: "/refacciones"},
+        {titulo: "Instalación de red de gas", img: imagen5, link: "/gas"},
+        {titulo: "Instalación eléctrica domiciliaria", img: imagen3, link: "/electricidad"},
+    ]
+    }
 
 export default function Home() {
     window.scrollTo(0, -10000);
