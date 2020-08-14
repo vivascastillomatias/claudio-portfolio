@@ -67,7 +67,7 @@ const data = {
             'Asesoría',
         ],
         info_profesional:[
-            {nombre: 'TECNICO MATRICULADO EN REFRIGERACIÓN', descripcion: 'Escuela de instaladores Isaias Goldman'},
+            {nombre: 'TECNICO MATRICULADO EN REFRIGERACIÓN', descripcion: 'Escuela de instaladores Celsius'},
             {nombre: 'TECNICO CAPACITADO', descripcion: 'Instituto de capacitacion laboral Celsius'}
         ]
     }

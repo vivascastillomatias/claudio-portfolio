@@ -28,7 +28,7 @@ export default function PanelContacto() {
                             </a>
                         </div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <a href="mailto:castilloservicios@gmail.com">
+                        <a href="mailto:castilloservicioscordoba@gmail.com">
                             <div class="hoverAnimacion">
                                 {iconMailTo}
                                 <p><span>castilloservicioscordoba</span> <span>@gmail.com</span></p>

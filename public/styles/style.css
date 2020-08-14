@@ -142,7 +142,7 @@ body.menu-active #Header .logo {
 	color: #dd8633;
 }
 #HeroBanner {
-	background: url(../images/banner.png)no-repeat 0 0 / cover;
+	background: url(../images/banner.jpg)no-repeat 0 0 / cover;
 	background-color: #373436;
 	height: 630px;
 	position: relative;

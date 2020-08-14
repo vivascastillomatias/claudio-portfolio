@@ -33,7 +33,7 @@ export default function Cuerpo(props) {
                             {renderizarItemsServicio(props.data.items)}
                         </div>
                         <div class="address-block">
-                            <p class="add-title">EXPERIENCIA / REFERENCIAS</p>
+                            <p class="add-title">EXPERIENCIA / REFERENCIAS / OBSERVACIONES</p>
                             {renderizarItemsReferencias(props.data.info_profesional)}
                         </div>
                     </div>

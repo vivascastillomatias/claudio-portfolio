@@ -30,7 +30,6 @@ export default function PerfilProfesional() {
                         <div class="address-block">
                             <p class="add-title">DATOS PERSONALES</p>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <img className="img" src={perfil} alt=""/>
                                 <div class="c-info">
                                 <h4>Claudio Andrés Castillo</h4>
@@ -38,21 +37,17 @@ export default function PerfilProfesional() {
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>ELECTRICISTA MATRICULADO CATEGORÍA 3</h4>
                                 <p></p>
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>GASISTA MATRICULADO</h4>
-                                <p>Registrado en Cámara Argentina de Calefacción, Aire Acondicionado y Ventilación</p>
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>TECNICO MATRICULADO EN REFRIGERACIÓN</h4>
                                 <p></p>
@@ -62,31 +57,27 @@ export default function PerfilProfesional() {
                         <div class="address-block">
                             <p class="add-title">CONTACTO</p>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>Teléfono móvil</h4>
                                 <p><a  href="tel:3513091573">351 309-1573</a></p>
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-phone-square" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>Teléfono fijo</h4>
                                 <p><a  href="tel:3514842229">351 484-2229</a></p>
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>Email</h4>
-                                <p><a href="mailto:castilloservicios@gmail.com">castilloservicios@gmail.com</a></p>
+                                <p><a href="mailto:castilloservicioscordoba@gmail.com">castilloservicioscordoba@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                 <h4>PÁGINA DE FACEBOOK</h4>
-                                <p><a href="https://www.facebook.com/Refrigeracion-electricidad-en-general-274631352920334" target="_blank" rel="noopener noreferrer">Electricidad y Refrigeración en general</a></p>
+                                <p><a href="https://www.facebook.com/Castillo-Servicios-274631352920334/" target="_blank" rel="noopener noreferrer">CASTILLO SERVICIOS</a></p>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +87,6 @@ export default function PerfilProfesional() {
                         <div class="address-block">
                             <p class="add-title">FORMACIÓN PROFESIONAL</p>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                     <h4>CURSO DE CAPACITACIÓN EN INSTALACIONES DOMICILIARIAS DE ELECTRICIDAD</h4>
                                     <p>Programa provincial de capacitación para el empleo</p>
@@ -104,7 +94,6 @@ export default function PerfilProfesional() {
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                     <h4>CURSO DE CAPACITACIÓN EN INSTALACIONES DE GAS</h4>
                                     <p>Escuela de capacitación Newton</p>
@@ -112,43 +101,14 @@ export default function PerfilProfesional() {
                                 </div>
                             </div>
                             <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
                                 <div class="c-info">
                                     <h4>CURSO DE CAPACITACIÓN EN INSTALACIONES DE AIRE ACONDICIONADO</h4>
-                                    <p>Escuela de instaladores Isaias Goldman</p>
+                                    <p>Escuela de instaladores Celsius</p>
                                     <p>Instalador de aire acondicionado hasta 6000 frigorías con refrigerantes R410</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="address-block">
-                            <p class="add-title">EXPERIENCIA / REFERENCIAS</p>
-                            <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
-                                <div class="c-info">
-                                    <h4>[EXPERIENCIA]</h4>
-                                    <p><strong>Actividad:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Desde:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Hasta:</strong> dd/mm/aaaa</p>
-                                </div>
-                            </div>
-                            <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
-                                <div class="c-info">
-                                    <h4>[EXPERIENCIA]</h4>
-                                    <p><strong>Actividad:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Desde:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Hasta:</strong> dd/mm/aaaa</p>
-                                </div>
-                            </div>
-                            <div class="c-detail">
-                                {/* <div class="c-icon"><i class="fas fa-address-book" aria-hidden="true"></i></div> */}
-                                <div class="c-info">
-                                    <h4>[EXPERIENCIA]</h4>
-                                    <p><strong>Actividad:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Desde:</strong> dd/mm/aaaa</p>
-                                    <p><strong>Hasta:</strong> dd/mm/aaaa</p>
-                                </div>
-                            </div>
+                        <div class="address-block">                        
                         </div>
                     </div>
                 </div>
