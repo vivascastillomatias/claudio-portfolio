@@ -37,7 +37,7 @@ const data = {
             'Herrería'
         ],
         info_profesional:[
-            {nombre: 'SERVICIO DE PREINSTALACION Y POSTINSTALACIÓN', descripcion: 'Refacciones necesarias de postinstalación de electricidad y plomería. Con trabajos en albañilería y pintura se logra obtener un resultado estetico para el hogar'},
+            {nombre: 'SERVICIO DE PREINSTALACION Y POSTINSTALACIÓN', descripcion: 'Refacciones necesarias de postinstalación de electricidad y plomería. Con trabajos en albañilería y pintura se logra obtener un resultado estetico para el hogar.'},
             {nombre: 'SERVICIO ADICIONAL', descripcion: 'Refacciones necesarias de preinstalación en la vivienda. Linea dedicada de electricidad, refacciones de albañilería necesarias para que el trabajo esté en condiciones óptimas. '}
         ]
     }
